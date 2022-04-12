@@ -1,0 +1,31 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--bg: #252525;
+	--txt: #eee;
+	--error: #f33;
+	--primary: #2a5be2;
+	--s-bg: #222;
+}
+
+input,
+button {
+	color: inherit;
+	background-color: transparent;
+}
+
+input {
+	background-color: var(--s-bg);
+	border-radius: 0;
+	outline-width: 0;
+}
+
+button {
+	border-width: 0;
+	background-color: var(--primary);
+	padding-block: 1ch;
+}

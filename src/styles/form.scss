@@ -1,0 +1,15 @@
+.form {
+	display: grid;
+	justify-content: center;
+	gap: 1em 2em;
+	text-align: center;
+	&__button {
+		color: var(--txt);
+		background-color: var(--primary);
+		font-size: 1rem;
+		font-weight: 500;
+		padding: 0.725em 4em;
+		border-radius: 1ch;
+		justify-self: center;
+	}
+}

@@ -1,0 +1,24 @@
+.field {
+	position: relative;
+	display: inline-grid;
+	grid-template-rows: auto 1rem;
+
+	&__error {
+		position: absolute;
+		font-size: 0.7rem;
+		color: var(--error);
+		bottom: 0;
+	}
+
+	&__input,
+	&__select,
+	&__textarea {
+		border: 0.1ch solid var(--txt);
+		font-size: 0.875rem;
+		padding: 1em;
+		border-radius: 1ch;
+		&:focus {
+			border-color: var(--primary);
+		}
+	}
+}
